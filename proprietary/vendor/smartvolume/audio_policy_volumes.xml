@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- Volume section defines a volume curve for a given use case and device category.
+It contains a list of points of this curve expressing the attenuation in Millibels for a given
+volume index from 0 to 100.
+<volume stream=”AUDIO_STREAM_MUSIC” deviceCategory=””>
+<point>0,-9600</point>
+<point>100,0</point>
+</volume>
+-->
+
+<volumes>
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="4" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="7" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="5" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="11" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="6" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="5" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="7" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="7" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="11" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="11" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="11" ref="DEFAULT_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_DEFAULT" defaultVolume="11" ref="DEFAULT_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="4" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="7" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="5" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="15" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="6" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="5" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="7" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="7" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="11" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="11" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="11" ref="SPEAKER_CURVE_1"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_SPEAKER" defaultVolume="11" ref="SPEAKER_CURVE_1"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="4" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="5" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="6" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="5" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="4" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="5" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="6" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="5" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="7" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" defaultVolume="11" ref="WIRED_HEADSET_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="4" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="6" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" defaultVolume="11" ref="BT_SCO_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="4" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="6" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET" defaultVolume="11" ref="BT_SCO_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="4" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="6" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="5" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="7" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="11" ref="BT_SCO_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT" defaultVolume="11" ref="BT_SCO_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="4" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="6" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="4" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="6" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="4" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="6" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="5" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="7" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" defaultVolume="11" ref="BT_A2DP_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="4" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="6" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_AUX_DIGITAL" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="4" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="6" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_ANLG_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+
+    <volume stream="AUDIO_STREAM_VOICE_CALL" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="4" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_SYSTEM" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_RING" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ALARM" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="6" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_NOTIFICATION" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="5" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_BLUETOOTH_SCO" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ENFORCED_AUDIBLE" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="7" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_DTMF" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_TTS" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_ACCESSIBILITY" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+    <volume stream="AUDIO_STREAM_REROUTING" device="AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET" defaultVolume="11" ref="AUX_DIGITAL_CURVE"/>
+</volumes>
