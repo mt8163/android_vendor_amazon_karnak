@@ -1,1 +1,1 @@
-# android_vendor_amazon_karnak
+Vendor Directory for Karnak
