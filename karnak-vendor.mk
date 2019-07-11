@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/hw/sensors.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmmtkplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmctaplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmctaplugin.so \
+  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayoutVendor_1949_Product_0401.kl \
+  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
+  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0406.kl:system/usr/keylayout/Vendor_1949_Product_0406.kl \
+  $(PROPRIETARY_DIR)/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
