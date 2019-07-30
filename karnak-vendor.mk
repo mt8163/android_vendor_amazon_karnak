@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/lib/libblueshift-opus.so:system/lib/libblueshift-opus.so \
   $(PROPRIETARY_DIR)/lib/libblueshift-audioprocessing.so:system/lib/libblueshift-audioprocessing.so \
   $(PROPRIETARY_DIR)/lib/libAlphaInputWrapper.so:system/lib/libAlphaInputWrapper.so \
-  $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_policy.conf \
+  $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_effects.conf \
+  $(PROPRIETARY_DIR)/etc/audio_policy.conf:system/etc/audio_policy.conf \
   $(PROPRIETARY_DIR)/lib/libcjson.so:system/lib/libcjson.so \
   $(PROPRIETARY_DIR)/lib/libasp.so:system/lib/libasp.so \
   $(PROPRIETARY_DIR)/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
@@ -43,19 +44,24 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/hw/audio.usb.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/camera.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/gatekeeper.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8163.so \
-  $(PROPRIETARY_DIR)/vendor/lib/hw/gralloc.mt8163.so:system//vendor/lib/hw/gralloc.mt8163.so \
+  $(PROPRIETARY_DIR)/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/sensors.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmmtkplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmctaplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmctaplugin.so \
-  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayoutVendor_1949_Product_0401.kl \
+  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayout/Vendor_1949_Product_0401.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0406.kl:system/usr/keylayout/Vendor_1949_Product_0406.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/recovery.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/recovery.fstab \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.policy.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:system/etc/.tp/thermal.policy.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:system/etc/audio_device.xml \
@@ -64,12 +70,12 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
   $(PROPRIETARY_DIR)/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh\
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
-  $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
-  $(PROPRIETARY_DIR)/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
-  $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
-  $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
-  $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:system/bin/dump-ramdump.sh \
-  $(PROPRIETARY_DIR)/bin/idme:system/bin/idme \
+  $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_hmac \
+  $(PROPRIETARY_DIR)/bin/amzn_dha_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_tool \
+  $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_check \
+  $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_tool \
+  $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump.sh \
+  $(PROPRIETARY_DIR)/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode1.dat:system/etc/firmware/SMicBin_rt5518_mode1.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode2.dat:system/etc/firmware/SMicBin_rt5518_mode2.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode3.dat:system/etc/firmware/SMicBin_rt5518_mode3.dat \
@@ -85,6 +91,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
   $(PROPRIETARY_DIR)/vendor/bin/akmd09911:$(TARGET_COPY_OUT_VENDOR)/bin/akmd09911 \
   $(PROPRIETARY_DIR)/vendor/bin/akmd8963:$(TARGET_COPY_OUT_VENDOR)/bin/akmd8963 \
+  $(PROPRIETARY_DIR)/vendor/bin/akmd8975:$(TARGET_COPY_OUT_VENDOR)/bin/akmd8975 \
   $(PROPRIETARY_DIR)/vendor/bin/ami304d:$(TARGET_COPY_OUT_VENDOR)/bin/ami304d \
   $(PROPRIETARY_DIR)/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
   $(PROPRIETARY_DIR)/vendor/bin/autokd:$(TARGET_COPY_OUT_VENDOR)/bin/autokd \
@@ -114,6 +121,8 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_loopback:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loopback \
+  $(PROPRIETARY_DIR)/vendor/etc/custom.conf:$(TARGET_COPY_OUT_VENDOR)/etc/custom.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
   $(PROPRIETARY_DIR)/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
@@ -245,6 +254,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
   $(PROPRIETARY_DIR)/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
   $(PROPRIETARY_DIR)/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
+  $(PROPRIETARY_DIR)/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
   $(PROPRIETARY_DIR)/vendor/lib/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifitest.so \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
