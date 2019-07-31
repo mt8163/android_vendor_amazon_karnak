@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_check \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_tool \
   $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump.sh \
-  $(PROPRIETARY_DIR)/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
+  $(PROPRIETARY_DIR)/bin/idme:system/bin/idme \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode1.dat:system/etc/firmware/SMicBin_rt5518_mode1.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode2.dat:system/etc/firmware/SMicBin_rt5518_mode2.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode3.dat:system/etc/firmware/SMicBin_rt5518_mode3.dat \
