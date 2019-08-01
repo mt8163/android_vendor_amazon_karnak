@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.policy.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:system/etc/.tp/thermal.policy.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
@@ -68,8 +69,10 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh\
+  $(PROPRIETARY_DIR)/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
+  $(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_mali.so \
+  $(PROPRIETARY_DIR)/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_hmac \
   $(PROPRIETARY_DIR)/bin/amzn_dha_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_tool \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_check \
