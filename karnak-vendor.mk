@@ -73,10 +73,10 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
   $(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_mali.so \
   $(PROPRIETARY_DIR)/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-  $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_hmac \
-  $(PROPRIETARY_DIR)/bin/amzn_dha_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_tool \
-  $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_check \
-  $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_tool \
+  $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
+  $(PROPRIETARY_DIR)/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
+  $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
+  $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
   $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump.sh \
   $(PROPRIETARY_DIR)/bin/idme:system/bin/idme \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode1.dat:system/etc/firmware/SMicBin_rt5518_mode1.dat \
