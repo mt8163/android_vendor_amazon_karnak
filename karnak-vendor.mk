@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
   $(PROPRIETARY_DIR)/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
-  $(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_mali.so \
+  $(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   $(PROPRIETARY_DIR)/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
   $(PROPRIETARY_DIR)/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
