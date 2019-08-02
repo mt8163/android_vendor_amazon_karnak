@@ -1,1 +1,2 @@
-Vendor Directory for Karnak
+Vendor Directory for Karnak and Mt8163 Devices
+
