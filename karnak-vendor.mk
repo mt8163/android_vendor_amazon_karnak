@@ -60,11 +60,9 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.policy.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.policy.conf:system/etc/.tp/thermal.policy.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+  $(PROPRIETARY_DIR)/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+  $(PROPRIETARY_DIR)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+  $(PROPRIETARY_DIR)/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
@@ -137,9 +135,17 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
   $(PROPRIETARY_DIR)/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
   $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxAdpcmEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmEnc.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxG711Dec.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxRawDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxRawDec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxVorbisEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVorbisEnc.so\
   $(PROPRIETARY_DIR)/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
   $(PROPRIETARY_DIR)/vendor/lib/libSwJpgCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_crypto.so \
