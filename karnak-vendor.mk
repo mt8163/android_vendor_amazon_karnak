@@ -69,8 +69,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
   $(PROPRIETARY_DIR)/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
-  $(PROPRIETARY_DIR)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-  $(PROPRIETARY_DIR)/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+  $(PROPRIETARY_DIR)/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
   $(PROPRIETARY_DIR)/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
   $(PROPRIETARY_DIR)/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
@@ -83,9 +82,9 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode4.dat:system/etc/firmware/SMicBin_rt5518_mode4.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode5.dat:system/etc/firmware/SMicBin_rt5518_mode5.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode6.dat:system/etc/firmware/SMicBin_rt5518_mode6.dat \
-  $(PROPRIETARY_DIR)/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
   $(PROPRIETARY_DIR)/lib/hw/perfboost.default.so:system/lib/hw/perfboost.default.so \
   $(PROPRIETARY_DIR)/lib/hw/perfboost.mt8163.so:system/lib/hw/perfboost.mt8163.so \
   $(PROPRIETARY_DIR)/lib/hw/thermal.mt8163.so:system/lib/hw/thermal.mt8163.so \
@@ -268,4 +267,12 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
   $(PROPRIETARY_DIR)/vendor/smartvolume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/audio_policy_volumes.xml \
-  $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml \
+  $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml 
+# Pie Blobs
+PRODUCT_COPY_FILES += \
+$(PROPRIETARY_DIR)/vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service \
+$(PROPRIETARY_DIR)/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
+$(PROPRIETARY_DIR)/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
+$(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
+
+
