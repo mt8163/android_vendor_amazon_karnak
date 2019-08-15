@@ -25,6 +25,18 @@ cc_prebuilt_library_shared {
              },
     }
 cc_prebuilt_library_shared {
+    name: "libnvram",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/vendor/lib/libnvram.so"],
+            },
+            },
+           strip: {
+                   none:true,
+             },
+    }
+cc_prebuilt_library_shared {
     name: "libaudiocustparam",
     vendor: true,
     target: {
