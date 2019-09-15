@@ -27,7 +27,6 @@ LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_OWNER = mtk
 LOCAL_MODULE_SUFFIX = .so
 LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libcam.utils.sensorlistener.so
 include $(BUILD_PREBUILT)
 
@@ -35,7 +34,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libion_mtk
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libion_mtk.so
 LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -44,7 +42,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libged
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libged.so
 LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
