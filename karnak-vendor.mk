@@ -77,12 +77,14 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
   $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump.sh \
   $(PROPRIETARY_DIR)/bin/idme:system/bin/idme \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode1.dat:system/etc/firmware/SMicBin_rt5518_mode1.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode2.dat:system/etc/firmware/SMicBin_rt5518_mode2.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode3.dat:system/etc/firmware/SMicBin_rt5518_mode3.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode4.dat:system/etc/firmware/SMicBin_rt5518_mode4.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode5.dat:system/etc/firmware/SMicBin_rt5518_mode5.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode6.dat:system/etc/firmware/SMicBin_rt5518_mode6.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode11.dat:system/etc/firmware/SMicBin_rt5518_mode11.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode12.dat:system/etc/firmware/SMicBin_rt5518_mode12.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode13.dat:system/etc/firmware/SMicBin_rt5518_mode13.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode14.dat:system/etc/firmware/SMicBin_rt5518_mode14.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode21.dat:system/etc/firmware/SMicBin_rt5518_mode21.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode22.dat:system/etc/firmware/SMicBin_rt5518_mode22.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode23.dat \
+  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode24.dat \
   $(PROPRIETARY_DIR)/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
   $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
   $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
