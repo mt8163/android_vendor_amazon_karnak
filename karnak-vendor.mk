@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_loopback:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loopback \
   $(PROPRIETARY_DIR)/vendor/etc/custom.conf:$(TARGET_COPY_OUT_VENDOR)/etc/custom.conf \
   $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
-  $(PROPRIETARY_DIR)/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
