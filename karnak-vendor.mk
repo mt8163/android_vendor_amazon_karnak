@@ -234,6 +234,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libmtklimiter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtkplayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkplayer.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtkshifter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
   $(PROPRIETARY_DIR)/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
   $(PROPRIETARY_DIR)/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
