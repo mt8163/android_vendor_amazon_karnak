@@ -262,11 +262,3 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
   $(PROPRIETARY_DIR)/vendor/smartvolume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/audio_policy_volumes.xml \
   $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml 
-# Pie Blobs
-PRODUCT_COPY_FILES += \
-  $(PROPRIETARY_DIR)/vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service \
-  $(PROPRIETARY_DIR)/vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc \
-  $(PROPRIETARY_DIR)/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
-  $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
-
-
