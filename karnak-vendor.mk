@@ -262,4 +262,3 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
   $(PROPRIETARY_DIR)/vendor/smartvolume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/audio_policy_volumes.xml \
   $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml 
-
