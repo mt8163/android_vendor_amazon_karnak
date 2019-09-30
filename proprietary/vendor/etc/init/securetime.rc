@@ -1,0 +1,4 @@
+service securetime /vendor/bin/securetime
+    class main
+    user media
+    group mediadrm drmrpc
