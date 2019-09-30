@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
   $(PROPRIETARY_DIR)/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
-  $(PROPRIETARY_DIR)/bin/dump-ramdump.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump.sh \
   $(PROPRIETARY_DIR)/bin/idme:system/bin/idme \
   $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_effects.conf \
   $(PROPRIETARY_DIR)/etc/audio_policy.conf:system/etc/audio_policy.conf \
@@ -76,6 +75,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/bmm050d:$(TARGET_COPY_OUT_VENDOR)/bin/bmm050d \
   $(PROPRIETARY_DIR)/vendor/bin/dmlog:$(TARGET_COPY_OUT_VENDOR)/bin/dmlog \
   $(PROPRIETARY_DIR)/vendor/bin/downloader:$(TARGET_COPY_OUT_VENDOR)/bin/downloader \
+  $(PROPRIETARY_DIR)/vendor/bin/dump-ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump \
   $(PROPRIETARY_DIR)/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
   $(PROPRIETARY_DIR)/vendor/bin/ged_srv:$(TARGET_COPY_OUT_VENDOR)/bin/ged_srv \
   $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
+  $(PROPRIETARY_DIR)/vendor/etc/init/securetime.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/securetime.rc \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
   $(PROPRIETARY_DIR)/vendor/firmware/WIFI_RAM_CODE_8163:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_8163 \
