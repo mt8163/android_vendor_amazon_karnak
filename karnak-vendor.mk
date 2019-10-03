@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/lib/libmediacodeclogger.so:system/lib/libmediacodeclogger.so \
   $(PROPRIETARY_DIR)/lib/libmediaerrorlogger.so:system/lib/libmediaerrorlogger.so \
   $(PROPRIETARY_DIR)/lib/libmediaextension.so:system/lib/libmediaextension.so \
-  $(PROPRIETARY_DIR)/lib/libprotobuf-old-lite.so:system/lib/libprotobuf-old-lite.so \
+  $(PROPRIETARY_DIR)/lib/libprotobuf-cpp-amz.so:system/lib/libprotobuf-cpp-amz.so \
   $(PROPRIETARY_DIR)/lib/libsmartvolume.so:system/lib/libsmartvolume.so \
   $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:system/lib/soundfx/libaudiofx.so \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmrdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrdump.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
