@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-  $(PROPRIETARY_DIR)/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-  $(PROPRIETARY_DIR)/lib/hw/thermal.mt8163.so:system/lib/hw/thermal.mt8163.so \
   $(PROPRIETARY_DIR)/lib/libAlphaInputWrapper.so:system/lib/libAlphaInputWrapper.so \
   $(PROPRIETARY_DIR)/lib/libamazon_remotes.so:system/lib/libamazon_remotes.so.so \
   $(PROPRIETARY_DIR)/lib/libasp.so:system/lib/libasp.so \
@@ -85,7 +83,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/spm_loader:$(TARGET_COPY_OUT_VENDOR)/bin/spm_loader \
   $(PROPRIETARY_DIR)/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
   $(PROPRIETARY_DIR)/vendor/bin/superumount:$(TARGET_COPY_OUT_VENDOR)/bin/superumount \
-  $(PROPRIETARY_DIR)/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
   $(PROPRIETARY_DIR)/vendor/bin/wifitesttool:$(TARGET_COPY_OUT_VENDOR)/bin/wifitesttool \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_concurrency:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_concurrency \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
