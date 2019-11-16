@@ -25,10 +25,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode22.dat:system/etc/firmware/SMicBin_rt5518_mode22.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode23.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode24.dat \
-  $(PROPRIETARY_DIR)/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
-  $(PROPRIETARY_DIR)/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-  $(PROPRIETARY_DIR)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-  $(PROPRIETARY_DIR)/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
   $(PROPRIETARY_DIR)/lib/libAlphaInputWrapper.so:system/lib/libAlphaInputWrapper.so \
   $(PROPRIETARY_DIR)/lib/libamazon_remotes.so:system/lib/libamazon_remotes.so.so \
   $(PROPRIETARY_DIR)/lib/libasp.so:system/lib/libasp.so \
