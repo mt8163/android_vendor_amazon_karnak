@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmctaplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmctaplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/drm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmmtkplugin.so \
+  $(PROPRIETARY_DIR)/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
   $(PROPRIETARY_DIR)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so\
   $(PROPRIETARY_DIR)/vendor/lib/hw/amzn_dha.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/amzn_dha.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/amzn_drmprov.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/amzn_drmprov.mt8163.so \
