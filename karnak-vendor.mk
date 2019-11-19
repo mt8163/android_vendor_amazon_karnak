@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.zram\
   $(PROPRIETARY_DIR)/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
   $(PROPRIETARY_DIR)/vendor/etc/init/securetime.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/securetime.rc \
+  $(PROPRIETARY_DIR)/vendor/etc/dolby/ds1-033.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/ds1-033.xml \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
   $(PROPRIETARY_DIR)/vendor/etc/recovery.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/recovery.fstab \
