@@ -90,8 +90,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/audio-algorithms/coefs_FilterBank.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/coefs_FilterBank.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/audio-algorithms/EQ_2048.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/EQ_2048.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/audio-algorithms/MBCL.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/MBCL.cfg \
-  $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
-  $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
