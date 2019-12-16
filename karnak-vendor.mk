@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/etc/audio_device.xml:system/etc/audio_device.xml \
+  $(PROPRIETARY_DIR)/vendor/etc/dolby/ds1-0033.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/ds1-0033.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
