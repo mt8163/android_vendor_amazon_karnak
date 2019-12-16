@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
   $(PROPRIETARY_DIR)/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
-  $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:system/etc/audio_device.xml \
+  $(PROPRIETARY_DIR)/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
   $(PROPRIETARY_DIR)/vendor/bin/wmt_loopback:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loopback \
   $(PROPRIETARY_DIR)/vendor/etc/custom.conf:$(TARGET_COPY_OUT_VENDOR)/etc/custom.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
   $(PROPRIETARY_DIR)/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
