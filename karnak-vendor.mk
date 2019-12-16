@@ -84,9 +84,9 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode22.dat:system/etc/firmware/SMicBin_rt5518_mode22.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode23.dat \
   $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode24.dat \
-  $(PROPRIETARY_DIR)/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+  $(PROPRIETARY_DIR)/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
   $(PROPRIETARY_DIR)/lib/hw/perfboost.default.so:system/lib/hw/perfboost.default.so \
   $(PROPRIETARY_DIR)/lib/hw/perfboost.mt8163.so:system/lib/hw/perfboost.mt8163.so \
   $(PROPRIETARY_DIR)/lib/hw/thermal.mt8163.so:system/lib/hw/thermal.mt8163.so \
