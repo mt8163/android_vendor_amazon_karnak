@@ -243,7 +243,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtz_uree.so \
   $(PROPRIETARY_DIR)/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
   $(PROPRIETARY_DIR)/vendor/lib/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall_v2.so \
-  $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_crypto.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_modular_drm.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_modular_drm.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_video_secure_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_video_secure_al.so \
   $(PROPRIETARY_DIR)/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
