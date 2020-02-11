@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/mc6420d:$(TARGET_COPY_OUT_VENDOR)/bin/mc6420d \
   $(PROPRIETARY_DIR)/vendor/bin/memsicd:$(TARGET_COPY_OUT_VENDOR)/bin/memsicd \
   $(PROPRIETARY_DIR)/vendor/bin/memsicd3416x:$(TARGET_COPY_OUT_VENDOR)/bin/memsicd3416x \
-  $(PROPRIETARY_DIR)/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
   $(PROPRIETARY_DIR)/vendor/bin/msensord:$(TARGET_COPY_OUT_VENDOR)/bin/msensord \
   $(PROPRIETARY_DIR)/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
   $(PROPRIETARY_DIR)/vendor/bin/rpmb_svc:$(TARGET_COPY_OUT_VENDOR)/bin/rpmb_svc \
