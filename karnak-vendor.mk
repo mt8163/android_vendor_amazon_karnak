@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/downloader:$(TARGET_COPY_OUT_VENDOR)/bin/downloader \
   $(PROPRIETARY_DIR)/vendor/bin/dump-ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump \
   $(PROPRIETARY_DIR)/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
-  $(PROPRIETARY_DIR)/vendor/bin/ged_srv:$(TARGET_COPY_OUT_VENDOR)/bin/ged_srv \
   $(PROPRIETARY_DIR)/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
   $(PROPRIETARY_DIR)/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
   $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
