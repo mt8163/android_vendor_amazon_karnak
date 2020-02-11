@@ -72,4 +72,29 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
+    }
+cc_prebuilt_library_shared {
+    name: "libged",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/vendor/lib/libged.so"],
+             },
+            },
+           strip: {
+                   none:true,
+             },
+    } 
+
+cc_prebuilt_library_shared {
+    name: "libion_mtk",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/vendor/lib/libion_mtk.so"],
+             },
+            },
+           strip: {
+                   none:true,
+             },
     } 

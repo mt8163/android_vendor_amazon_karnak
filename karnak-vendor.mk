@@ -128,7 +128,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/hw/gatekeeper.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
-  $(PROPRIETARY_DIR)/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.default.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/sensors.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt8163.so \
@@ -196,8 +195,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libGdmaScalerPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGdmaScalerPipe.so \
   $(PROPRIETARY_DIR)/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
   $(PROPRIETARY_DIR)/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libgui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_ext.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
@@ -241,7 +238,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
   $(PROPRIETARY_DIR)/vendor/lib/libSwJpgCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so \
   $(PROPRIETARY_DIR)/vendor/lib/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtz_uree.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
   $(PROPRIETARY_DIR)/vendor/lib/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall_v2.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_modular_drm.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_modular_drm.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib_uree_mtk_video_secure_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_video_secure_al.so \
