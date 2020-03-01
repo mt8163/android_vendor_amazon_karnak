@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/autokd:$(TARGET_COPY_OUT_VENDOR)/bin/autokd \
   $(PROPRIETARY_DIR)/vendor/bin/bmm050d:$(TARGET_COPY_OUT_VENDOR)/bin/bmm050d \
   $(PROPRIETARY_DIR)/vendor/bin/dmlog:$(TARGET_COPY_OUT_VENDOR)/bin/dmlog \
-  $(PROPRIETARY_DIR)/vendor/bin/downloader:$(TARGET_COPY_OUT_VENDOR)/bin/downloader \
-  $(PROPRIETARY_DIR)/vendor/bin/dump-ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/dump-ramdump \
   $(PROPRIETARY_DIR)/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
   $(PROPRIETARY_DIR)/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
   $(PROPRIETARY_DIR)/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
@@ -90,9 +88,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
   $(PROPRIETARY_DIR)/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-  $(PROPRIETARY_DIR)/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
   $(PROPRIETARY_DIR)/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
   $(PROPRIETARY_DIR)/vendor/firmware/WIFI_RAM_CODE_8163:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_8163 \
