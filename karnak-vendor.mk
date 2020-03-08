@@ -18,19 +18,18 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_effects.conf \
   $(PROPRIETARY_DIR)/etc/audio_policy.conf:system/etc/audio_policy.conf \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode11.dat:system/etc/firmware/SMicBin_rt5518_mode11.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode12.dat:system/etc/firmware/SMicBin_rt5518_mode12.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode13.dat:system/etc/firmware/SMicBin_rt5518_mode13.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode14.dat:system/etc/firmware/SMicBin_rt5518_mode14.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode21.dat:system/etc/firmware/SMicBin_rt5518_mode21.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode22.dat:system/etc/firmware/SMicBin_rt5518_mode22.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode23.dat \
-  $(PROPRIETARY_DIR)/etc/firmware/SMicBin_rt5518_mode24.dat:system/etc/firmware/SMicBin_rt5518_mode24.dat \
-  $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:system/lib/soundfx/libaudiofx.so \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode11.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode11.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode12.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode12.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode13.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode13.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode14.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode14.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode21.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode21.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode22.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode22.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode23.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode24.dat \
+  $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiofx.so \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
   $(PROPRIETARY_DIR)/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
-  $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayout/Vendor_1949_Product_0401.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/Vendor_1949_Product_0406.kl:system/usr/keylayout/Vendor_1949_Product_0406.kl \
   $(PROPRIETARY_DIR)/vendor/bin/akmd09911:$(TARGET_COPY_OUT_VENDOR)/bin/akmd09911 \
@@ -117,7 +116,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiodcrflt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiosetting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosetting.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiostream_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiostream_jni.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libaudiostream.so:system/lib/libaudiostream.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libaudiostream.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiostream.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit.so \
   $(PROPRIETARY_DIR)/vendor/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk.so \
   $(PROPRIETARY_DIR)/vendor/lib/libblisrc32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32.so \
@@ -159,7 +158,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_utils.so \
   $(PROPRIETARY_DIR)/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libcjson.so:system/lib/libcjson.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libcjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcjson.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
   $(PROPRIETARY_DIR)/vendor/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so \
@@ -175,7 +174,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libGdmaScalerPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGdmaScalerPipe.so \
   $(PROPRIETARY_DIR)/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
   $(PROPRIETARY_DIR)/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libhal_effects.so:system/lib/libhal_effects.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libhal_effects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_effects.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
   $(PROPRIETARY_DIR)/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
@@ -213,9 +212,9 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
   $(PROPRIETARY_DIR)/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
   $(PROPRIETARY_DIR)/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libprotobuf-cpp-amz.so:system/lib/libprotobuf-cpp-amz.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libserviceutility.so:system/lib/libserviceutility.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libsmartvolume.so:system/lib/libsmartvolume.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libprotobuf-cpp-amz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-amz.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libserviceutility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libserviceutility.so \
+  $(PROPRIETARY_DIR)/vendor/lib/libsmartvolume.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartvolume.so \
   $(PROPRIETARY_DIR)/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
   $(PROPRIETARY_DIR)/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
   $(PROPRIETARY_DIR)/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
