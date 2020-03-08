@@ -18,7 +18,15 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_effects.conf \
   $(PROPRIETARY_DIR)/etc/audio_policy.conf:system/etc/audio_policy.conf \
-  $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:system/lib/soundfx/libaudiofx.so \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode11.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode11.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode12.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode12.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode13.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode13.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode14.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode14.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode21.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode21.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode22.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode22.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode23.dat \
+  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode24.dat \
+  $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiofx.so \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
   $(PROPRIETARY_DIR)/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
