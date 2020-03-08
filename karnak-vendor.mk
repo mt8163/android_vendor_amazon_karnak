@@ -18,15 +18,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/etc/audio_device.xml:system/etc/audio_device.xml \
   $(PROPRIETARY_DIR)/etc/audio_effects.conf:system/etc/audio_effects.conf \
   $(PROPRIETARY_DIR)/etc/audio_policy.conf:system/etc/audio_policy.conf \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode11.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode11.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode12.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode12.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode13.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode13.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode14.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode14.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode21.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode21.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode22.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode22.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode23.dat \
-  $(PROPRIETARY_DIR)/vendor/firmware/SMicBin_rt5518_mode24.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/SMicBin_rt5518_mode24.dat \
-  $(PROPRIETARY_DIR)/lib/soundfx/libaudiofx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiofx.so \
   $(PROPRIETARY_DIR)/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
   $(PROPRIETARY_DIR)/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
   $(PROPRIETARY_DIR)/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
@@ -251,6 +242,7 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
   $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+  $(PROPRIETARY_DIR)/vendor/lib/soundfx/libaudiofx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiofx.so \
   $(PROPRIETARY_DIR)/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
   $(PROPRIETARY_DIR)/vendor/smartvolume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/audio_policy_volumes.xml \
   $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml 
