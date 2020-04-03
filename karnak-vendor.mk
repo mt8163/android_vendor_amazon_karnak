@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/bmm050d:$(TARGET_COPY_OUT_VENDOR)/bin/bmm050d \
   $(PROPRIETARY_DIR)/vendor/bin/dmlog:$(TARGET_COPY_OUT_VENDOR)/bin/dmlog \
   $(PROPRIETARY_DIR)/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
-  $(PROPRIETARY_DIR)/vendor/bin/ged_srv:$(TARGET_COPY_OUT_VENDOR)/bin/ged_srv \
   $(PROPRIETARY_DIR)/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
   $(PROPRIETARY_DIR)/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
   $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
@@ -218,7 +217,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
   $(PROPRIETARY_DIR)/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
   $(PROPRIETARY_DIR)/vendor/lib/libprotobuf-cpp-amz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-amz.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libserviceutility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libserviceutility.so \
   $(PROPRIETARY_DIR)/vendor/lib/libsmartvolume.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartvolume.so \
   $(PROPRIETARY_DIR)/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
   $(PROPRIETARY_DIR)/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
