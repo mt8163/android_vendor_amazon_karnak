@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/bin/bmm050d:$(TARGET_COPY_OUT_VENDOR)/bin/bmm050d \
   $(PROPRIETARY_DIR)/vendor/bin/dmlog:$(TARGET_COPY_OUT_VENDOR)/bin/dmlog \
   $(PROPRIETARY_DIR)/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
-  $(PROPRIETARY_DIR)/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
   $(PROPRIETARY_DIR)/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
   $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
   $(PROPRIETARY_DIR)/vendor/bin/lsm303md:$(TARGET_COPY_OUT_VENDOR)/bin/lsm303md \
@@ -70,7 +69,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/etc/custom.conf:$(TARGET_COPY_OUT_VENDOR)/etc/custom.conf \
   $(PROPRIETARY_DIR)/vendor/etc/dolby/ds1-0033.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/ds1-0033.xml \
   $(PROPRIETARY_DIR)/vendor/etc/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.zram\
-  $(PROPRIETARY_DIR)/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
   $(PROPRIETARY_DIR)/vendor/etc/init/securetime.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/securetime.rc \
   $(PROPRIETARY_DIR)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
   $(PROPRIETARY_DIR)/vendor/etc/radvd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/radvd.conf \
