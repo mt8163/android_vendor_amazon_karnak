@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libasp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasp.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiocompensationfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiocomponentengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libaudiocustparam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiodcrflt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiosetting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosetting.so \
   $(PROPRIETARY_DIR)/vendor/lib/libaudiostream_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiostream_jni.so \
@@ -137,7 +136,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.camadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camadapter.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.campipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.campipe.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.camshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camshot.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libcam.client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.client.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.device1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.device1.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.device3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.device3.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcamdrv_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_FrmB.so \
@@ -158,7 +156,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libcam_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_platform.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.utils.sensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorlistener.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcam.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libcam_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_utils.so \
   $(PROPRIETARY_DIR)/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcjson.so \
   $(PROPRIETARY_DIR)/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
@@ -166,7 +163,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so \
   $(PROPRIETARY_DIR)/vendor/lib/libdlbdapstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbdapstorage.so \
   $(PROPRIETARY_DIR)/vendor/lib/libdlbmemoryservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbmemoryservice.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
   $(PROPRIETARY_DIR)/vendor/lib/libdrmmtkutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmmtkutil.so \
   $(PROPRIETARY_DIR)/vendor/lib/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmmtkwhitelist.so \
   $(PROPRIETARY_DIR)/vendor/lib/libfeatureiodrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv.so \
@@ -199,7 +195,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libmrdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrdump.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libmtkcam_fwkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fwkutils.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtkjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkjpeg.so \
   $(PROPRIETARY_DIR)/vendor/lib/libmtklimiter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter.so \
@@ -212,7 +207,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/libnvramagentclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvramagentclient.so \
   $(PROPRIETARY_DIR)/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
   $(PROPRIETARY_DIR)/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
-  $(PROPRIETARY_DIR)/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
   $(PROPRIETARY_DIR)/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
   $(PROPRIETARY_DIR)/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
   $(PROPRIETARY_DIR)/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
@@ -244,4 +238,12 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
   $(PROPRIETARY_DIR)/vendor/smartvolume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/audio_policy_volumes.xml \
   $(PROPRIETARY_DIR)/vendor/smartvolume/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/smartvolume/default_volume_tables.xml 
+
+PRODUCT_PACKAGES += \
+  libnvram \
+  libaudiocustparam \
+  libcam.client \
+  libcam_utils \
+  libdpframework \
+  libmtkcam_fwkutils \
 
