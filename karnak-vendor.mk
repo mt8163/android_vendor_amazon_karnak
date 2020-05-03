@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
   $(PROPRIETARY_DIR)/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
-  $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.default.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/hw/sensors.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt8163.so \
   $(PROPRIETARY_DIR)/vendor/lib/lib3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.so \
