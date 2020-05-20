@@ -16,7 +16,7 @@
 */
 
 cc_prebuilt_library_shared {
-    name: "libdpframework",
+    name:"libdpframework",
     vendor: true,
     target: {
              android_arm: {
@@ -26,11 +26,10 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
-    
-    
+}
+
 cc_prebuilt_library_shared {
-    name: "libmtkcam_fwkutils",
+    name:"libmtkcam_fwkutils",
     vendor: true,
     target: {
              android_arm: {
@@ -40,9 +39,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
+}
 cc_prebuilt_library_shared {
-    name: "libnvram",
+    name:"libnvram",
     vendor: true,
     target: {
              android_arm: {
@@ -52,9 +51,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
+}
 cc_prebuilt_library_shared {
-    name: "libaudiocustparam",
+    name:"libaudiocustparam",
     vendor: true,
     target: {
              android_arm: {
@@ -64,9 +63,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
+}
 cc_prebuilt_library_shared {
-    name: "libcam.client",
+    name:"libcam.client",
     vendor: true,
     target: {
              android_arm: {
@@ -76,10 +75,10 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
+}
 
 cc_prebuilt_library_shared {
-    name: "libcam_utils",
+    name:"libcam_utils",
     vendor: true,
     target: {
              android_arm: {
@@ -89,9 +88,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    }
+}
 cc_prebuilt_library_shared {
-    name: "libged",
+    name:"libged",
     vendor: true,
     target: {
              android_arm: {
@@ -101,10 +100,10 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    } 
+}
 
 cc_prebuilt_library_shared {
-    name: "libion_mtk",
+    name:"libion_mtk",
     vendor: true,
     target: {
              android_arm: {
@@ -114,4 +113,14 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-    } 
+}
+
+cc_prebuilt_library_shared {
+     name:"libcam.utils.sensorlistener",
+     vendor:true,
+          multilib : {
+            lib32 : {
+              srcs : ["proprietary/vendor/lib/libcam.utils.sensorlistener.so"],
+            },
+          },
+}
