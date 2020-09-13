@@ -1,22 +1,5 @@
-/*
-*
-* Copyright (C) 2019-2020 The LineageOS Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*      http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
-
 cc_prebuilt_library_shared {
-    name:"libdpframework",
+    name: "libdpframework",
     vendor: true,
     target: {
              android_arm: {
@@ -26,10 +9,10 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-}
+    }
 
 cc_prebuilt_library_shared {
-    name:"libmtkcam_fwkutils",
+    name: "libmtkcam_fwkutils",
     vendor: true,
     target: {
              android_arm: {
@@ -39,9 +22,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-}
+    }
 cc_prebuilt_library_shared {
-    name:"libnvram",
+    name: "libnvram",
     vendor: true,
     target: {
              android_arm: {
@@ -51,21 +34,9 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-}
+    }
 cc_prebuilt_library_shared {
-    name:"libaudiocustparam",
-    vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libaudiocustparam.so"],
-            },
-            },
-           strip: {
-                   none:true,
-             },
-}
-cc_prebuilt_library_shared {
-    name:"libcam.client",
+    name: "libcam.client",
     vendor: true,
     target: {
              android_arm: {
@@ -75,10 +46,10 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-}
+    }
 
 cc_prebuilt_library_shared {
-    name:"libcam_utils",
+    name: "libcam_utils",
     vendor: true,
     target: {
              android_arm: {
@@ -88,39 +59,45 @@ cc_prebuilt_library_shared {
            strip: {
                    none:true,
              },
-}
+    }
+
+
 cc_prebuilt_library_shared {
-    name:"libged",
+    name: "libksensor",
     vendor: true,
     target: {
              android_arm: {
-                    srcs: ["proprietary/vendor/lib/libged.so"],
+                    srcs: ["proprietary/vendor/lib/libksensor.so"],
              },
             },
            strip: {
                    none:true,
              },
-}
+    }
 
 cc_prebuilt_library_shared {
-    name:"libion_mtk",
+    name: "vendor.mediatek.hardware.audio@4.1",
     vendor: true,
     target: {
              android_arm: {
-                    srcs: ["proprietary/vendor/lib/libion_mtk.so"],
+                    srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so"],
              },
             },
            strip: {
                    none:true,
              },
-}
+    }
+
 
 cc_prebuilt_library_shared {
-     name:"libcam.utils.sensorlistener",
-     vendor:true,
-          multilib : {
-            lib32 : {
-              srcs : ["proprietary/vendor/lib/libcam.utils.sensorlistener.so"],
+    name: "vendor.mediatek.hardware.camera.device@1.1",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1.so"],
+             },
             },
-          },
-}
+           strip: {
+                   none:true,
+             },
+    }

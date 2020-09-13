@@ -1,0 +1,4 @@
+service fireosdha-1.0 /vendor/bin/hw/fireos.hardware.fireosdha@1.0-service
+    class hal
+    user keystore
+    group keystore drmrpc readproc

@@ -1,0 +1,36 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+#monitor battery status
+service batt_life /vendor/bin/battery_lifetime_data
+    class late_start
+    user system
+    group system graphics
+
+on post-fs-data
+    write /proc/bootprof "lifetime start post-fs-data"
+    chown system system /sys/devices/platform/battery_meter/FG_Battery_Cycle
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Voltage
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Voltage
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Current
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Current
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Temperature
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Temperature
+
+on property:sys.boot_completed=1
+    start batt_life
+
+on charger
+    write /proc/bootprof "lifetime start charger"
+    chown system system /sys/devices/platform/battery_meter/FG_Battery_Cycle
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Voltage
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Voltage
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Current
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Current
+    chown system system /sys/devices/platform/battery_meter/FG_Max_Battery_Temperature
+    chown system system /sys/devices/platform/battery_meter/FG_Min_Battery_Temperature
+    chown system system /dev/graphics/fb0
+    start batt_life

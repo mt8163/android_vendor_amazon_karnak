@@ -1,0 +1,3 @@
+# Android fstab file.
+#<src>                                           <mnt_point>      <type> <mnt_flags and options>                           <fs_mgr_flags>
+/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata /data ext4 noatime,nosuid,nodev,noauto_da_alloc,errors=remount-ro wait,check,formattable,quota,reservedsize=128m,encryptable=/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/metadata
