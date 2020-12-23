@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/bin/battery_lifetime_data:$(TARGET_COPY_OUT_VENDOR)/bin/battery_lifetime_data \
     $(PROPRIETARY_DIR)/vendor/bin/btmac:$(TARGET_COPY_OUT_VENDOR)/bin/btmac \
     $(PROPRIETARY_DIR)/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
+    $(PROPRIETARY_DIR)/vendor/bin/pr_device_cert_id:$(TARGET_COPY_OUT_VENDOR)/bin/pr_device_cert_id \
     $(PROPRIETARY_DIR)/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     $(PROPRIETARY_DIR)/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     $(PROPRIETARY_DIR)/vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.amazonthermal@1.0-service \
