@@ -1,2 +1,2 @@
 on boot
-    insmod /vendor/lib/modules/wmt_drv.ko
+    insmod /system/product/vendor_overlay/29/lib/modules/wmt_drv.ko

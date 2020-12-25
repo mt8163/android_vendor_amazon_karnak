@@ -413,10 +413,10 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
     $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    $(PROPRIETARY_DIR)/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
-    $(PROPRIETARY_DIR)/vendor/lib/modules/wlan_drv_gen2.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen2.ko \
-    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
-    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
+    $(PROPRIETARY_DIR)/vendor/lib/modules/bt_drv.ko:system/product/vendor_overlay/29/lib/modules//bt_drv.ko \
+    $(PROPRIETARY_DIR)/vendor/lib/modules/wlan_drv_gen2.ko:system/product/vendor_overlay/29/lib/modules/wlan_drv_gen2.ko \
+    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_chrdev_wifi.ko:system/product/vendor_overlay/29/lib/modules//wmt_chrdev_wifi.ko \
+    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_drv.ko:system/product/vendor_overlay/29/lib/modules/wmt_drv.ko \
     $(PROPRIETARY_DIR)/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
     $(PROPRIETARY_DIR)/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
     $(PROPRIETARY_DIR)/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
