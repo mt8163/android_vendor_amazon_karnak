@@ -436,7 +436,11 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.radio@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@3.0.so \
     $(PROPRIETARY_DIR)/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    $(PROPRIETARY_DIR)/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav 
+    $(PROPRIETARY_DIR)/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
+    $(PROPRIETARY_DIR)/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
+    $(PROPRIETARY_DIR)/vendor/lib/libcam.client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.client.so \
+    $(PROPRIETARY_DIR)/vendor/lib/libcam_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_utils.so \
+    
 
 PRODUCT_PACKAGES += \
   libnvram \
