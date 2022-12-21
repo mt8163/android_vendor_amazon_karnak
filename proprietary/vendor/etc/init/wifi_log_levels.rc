@@ -1,4 +1,0 @@
-service wifi_log_levels /vendor/bin/wifi_log_levels.sh
-    class late_start
-    user root
-    group root system

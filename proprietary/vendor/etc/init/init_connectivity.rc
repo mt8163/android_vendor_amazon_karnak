@@ -3,6 +3,7 @@
 on boot
 
 # WMT
+
 service wmt_loader /vendor/bin/wmt_loader
     class core
     user system
