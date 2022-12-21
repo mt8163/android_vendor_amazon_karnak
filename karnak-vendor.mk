@@ -394,3 +394,5 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so \
     prebuilts/vndk/v30/arm64/arch-arm-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v30.so \
+    prebuilts/vndk/v28/arm64/arch-arm-armv8-a/shared/vndk-core/libgatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgatekeeper-v28.so \
+    prebuilts/vndk/v28/arm64/arch-arm-armv8-a/shared/vndk-core/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_messages-v28.so
