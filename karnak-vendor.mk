@@ -5,8 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/amazon/karnak
 
-
-
+ PROPRIETARY_DIR += \
+       vendor/amazon/karnak/proprietary
+ 
 PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/bin/amzn_dha_hmac:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_hmac \
     $(PROPRIETARY_DIR)/vendor/bin/amzn_dha_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_tool \
