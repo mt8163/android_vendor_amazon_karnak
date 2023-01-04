@@ -5,9 +5,8 @@
 
 # BT MAC
 service btmac /vendor/bin/btmac
-    disabled
     oneshot
-    user system
+    user root
 
 on boot
     start btmac
