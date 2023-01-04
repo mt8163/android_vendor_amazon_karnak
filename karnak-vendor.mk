@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
     $(PROPRIETARY_DIR)/vendor/bin/mtkcam-debug:$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug \
-    $(PROPRIETARY_DIR)/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     $(PROPRIETARY_DIR)/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     $(PROPRIETARY_DIR)/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     $(PROPRIETARY_DIR)/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
@@ -149,7 +148,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     $(PROPRIETARY_DIR)/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     $(PROPRIETARY_DIR)/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    $(PROPRIETARY_DIR)/vendor/etc/iAmCdRom.iso:$(TARGET_COPY_OUT_VENDOR)/etc/iAmCdRom.iso \
     $(PROPRIETARY_DIR)/vendor/etc/init/amzn_drmprov_check.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/amzn_drmprov_check.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
@@ -169,7 +167,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/kisd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/kisd.rc \
-    $(PROPRIETARY_DIR)/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/rpmb_svc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmb_svc.rc \
