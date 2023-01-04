@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     $(PROPRIETARY_DIR)/vendor/bin/rpmb_svc:$(TARGET_COPY_OUT_VENDOR)/bin/rpmb_svc \
     $(PROPRIETARY_DIR)/vendor/bin/securetime:$(TARGET_COPY_OUT_VENDOR)/bin/securetime \
-    $(PROPRIETARY_DIR)/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     $(PROPRIETARY_DIR)/vendor/bin/wmt_concurrency:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_concurrency \
     $(PROPRIETARY_DIR)/vendor/bin/wmt_fdb:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_fdb \
     $(PROPRIETARY_DIR)/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
@@ -160,8 +159,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/etc/init/fireos.hardware.fireosdha@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.fireosdha@1.0-service.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/fireos.hardware.idme@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.idme@1.0-service.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
-    $(PROPRIETARY_DIR)/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
-    $(PROPRIETARY_DIR)/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/init.wipe_fos_flags.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wipe_fos_flags.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     $(PROPRIETARY_DIR)/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
@@ -302,7 +299,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
     $(PROPRIETARY_DIR)/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     $(PROPRIETARY_DIR)/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
-    $(PROPRIETARY_DIR)/vendor/lib/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so \
     $(PROPRIETARY_DIR)/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     $(PROPRIETARY_DIR)/vendor/lib/libimageio_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_FrmB.so \
     $(PROPRIETARY_DIR)/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
