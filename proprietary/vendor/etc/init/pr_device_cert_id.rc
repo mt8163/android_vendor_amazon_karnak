@@ -1,0 +1,6 @@
+# Save playready device certificate ID to ro.property
+service pr_devcertid /vendor/bin/pr_device_cert_id
+    class late_start
+    user media
+    group mediadrm drmrpc
+    oneshot

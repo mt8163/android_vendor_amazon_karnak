@@ -1,0 +1,6 @@
+service amzn_drmprov_check /vendor/bin/amzn_drmprov_check
+    class main
+    user root
+    group system drmrpc
+    oneshot
+

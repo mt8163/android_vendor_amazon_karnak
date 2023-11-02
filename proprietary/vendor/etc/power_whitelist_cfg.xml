@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <CMD_SET_CLUSTER_CPU_CORE_MIN Param1="0" Param2="3"/>
+            </Activity>
+        </Package>
+    </PerfService>
+</WHITELIST>

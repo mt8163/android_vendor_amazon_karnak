@@ -1,0 +1,7 @@
+service wipe_fos_flags /vendor/bin/wipe_fos_flags
+    class core
+    oneshot
+    disabled
+
+on property:vendor.amazon.fos_flags.wipe=1
+    start wipe_fos_flags
