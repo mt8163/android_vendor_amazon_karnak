@@ -6,28 +6,26 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amazon/karnak
 
 PRODUCT_COPY_FILES += \
-    vendor/amazon/karnak/proprietary/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.dolby.hardware.dms@1.0.so \
+    vendor/amazon/karnak/proprietary/vendor/lib/libkeymaster_messages-v28.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_messages-v28.so \
     vendor/amazon/karnak/proprietary/vendor/bin/amzn_dha_hmac:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_hmac \
     vendor/amazon/karnak/proprietary/vendor/bin/amzn_dha_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_dha_tool \
     vendor/amazon/karnak/proprietary/vendor/bin/amzn_drmprov_check:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_check \
     vendor/amazon/karnak/proprietary/vendor/bin/amzn_drmprov_tool:$(TARGET_COPY_OUT_VENDOR)/bin/amzn_drmprov_tool \
     vendor/amazon/karnak/proprietary/vendor/bin/btmac:$(TARGET_COPY_OUT_VENDOR)/bin/btmac \
-    vendor/amazon/karnak/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.amazonthermal@1.0-service \
-    vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.audio@2.0-service \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.fireosdha@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.fireosdha@1.0-service \
-    vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.idme@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.idme@1.0-service \
+    vendor/amazon/karnak/proprietary/vendor/bin/hw/fireos.hardware.idme@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.idme@1.1-service \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service \
+    vendor/amazon/karnak/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/amazon/karnak/proprietary/vendor/bin/hw/vendor.mediatek.hardware.power@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.power@2.0-service \
     vendor/amazon/karnak/proprietary/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
     vendor/amazon/karnak/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     vendor/amazon/karnak/proprietary/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
     vendor/amazon/karnak/proprietary/vendor/bin/mtkcam-debug:$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug \
-    vendor/amazon/karnak/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     vendor/amazon/karnak/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/amazon/karnak/proprietary/vendor/bin/pr_device_cert_id:$(TARGET_COPY_OUT_VENDOR)/bin/pr_device_cert_id \
     vendor/amazon/karnak/proprietary/vendor/bin/rpmb_svc:$(TARGET_COPY_OUT_VENDOR)/bin/rpmb_svc \
@@ -148,10 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/etc/init/btmac.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/btmac.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.amazonthermal@1.0-service.rc \
-    vendor/amazon/karnak/proprietary/vendor/etc/init/fireos.hardware.audio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.audio@2.0-service.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc \
-    vendor/amazon/karnak/proprietary/vendor/etc/init/fireos.hardware.idme@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.idme@1.0-service.rc \
-    vendor/amazon/karnak/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/amazon/karnak/proprietary/vendor/etc/init/fireos.hardware.idme@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.idme@1.1-service.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/init.wipe_fos_flags.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wipe_fos_flags.rc \
     vendor/amazon/karnak/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
@@ -186,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/amazon/karnak/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.amazonthermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.amazonthermal@1.0.so \
+    vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.amazonthermal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.amazonthermal@1.1.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.audio@2.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.audio@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.audio@4.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.audiosignalprocessor@1.0.so \
@@ -195,25 +192,24 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.connectivity.networkpower@1.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.fireosdha@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.fireosdha@1.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.idme@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.idme@1.0.so \
+    vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.idme@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.idme@1.1.so \
     vendor/amazon/karnak/proprietary/vendor/lib/fireos.hardware.localtime@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.localtime@1.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/amzn_dha.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/amzn_dha.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/amzn_drmprov.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/amzn_drmprov.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/audio.btle.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.btle.default.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/audio.primary.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8163.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/hw/audio.r_submix.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/audio.voice_dsp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.voice_dsp.default.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.audio@4.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.fireosdha@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.fireosdha@1.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.idme@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.idme@1.0-impl.so \
+    vendor/amazon/karnak/proprietary/vendor/lib/hw/fireos.hardware.idme@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fireos.hardware.idme@1.1-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/gatekeeper.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/keystore.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so \
@@ -299,7 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2onfbadapter.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libimageio_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_FrmB.so \
@@ -309,9 +304,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libispfeaturem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispfeaturem.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/libkeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster3device.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmsetkey.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libksensor.so \
     vendor/amazon/karnak/proprietary/vendor/lib/liblineartransform_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblineartransform_vendor.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
@@ -343,7 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/libplayready.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
     vendor/amazon/karnak/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
@@ -363,7 +355,12 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
     vendor/amazon/karnak/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/amazon/karnak/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/hid_ftv_bleremote.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/hid_ftv_bleremote.ko \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/perfinfo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/perfinfo.ko \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/wlan_drv_gen2.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen2.ko \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
+    vendor/amazon/karnak/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/amazon/karnak/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/amazon/karnak/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0-impl.so \
     vendor/amazon/karnak/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
@@ -378,3 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/karnak/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/amazon/karnak/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/amazon/karnak/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so
+
+PRODUCT_PACKAGES += \
+    libksensor
